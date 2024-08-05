@@ -3,7 +3,7 @@
 This idea has been on my mind for the last 2 years but I couldn't find a simple enough research answering this question. I decided to take matters into my own hands. 
 
 ### Idea
-The goal of this experiment is not to find a perfect model predicting the whole password from its hash and vice versa, but rather just using the first few bits of the hash to predict the password. This logic is skewed in that the first few bits of any good hashing algorithm (like SHA256) have/should have no direct correlation to the first few bits of the password itself. But my wonder cannot be satisfied by mere mathematical proof. 
+The goal of this experiment is not to find a perfect model predicting the whole password from its hash and vice versa, but rather just using the first few bits of the hash to predict (part of) the password. This logic is skewed in that the first few bits of any good hashing algorithm (like SHA256) have/should have no direct correlation to the first few bits of the password itself. But my wonder cannot be satisfied by mere mathematical proof. 
 
 ### Dataset
 10,000 common passwords: https://www.kaggle.com/code/shivamb/10000-common-passwords
