@@ -18,4 +18,4 @@ I used the first 4 bits of the password and hash with a test:train split of 0.2 
 ###### Test MAE 2.4125338313751854e-05
 
 ### Progress
-These results are considered pretty good but the validity of the experiment is questionable. I will be trying to increase the number of bits from the password and hash and repeat the experiment with different hyper parameters.
+These results are pretty good but the validity of the experiment is questionable. Futher research shows that the first few bits are padding hence the low loss.
